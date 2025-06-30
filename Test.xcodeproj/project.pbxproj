@@ -27,6 +27,7 @@
 		21ED1F602D69C85E0012D6F6 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ED1F5F2D69C85E0012D6F6 /* RootViewController.swift */; };
 		21ED1F622D69CBCD0012D6F6 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ED1F612D69CBCD0012D6F6 /* RootView.swift */; };
 		21ED1F652D69D0340012D6F6 /* ReviewsScreenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ED1F642D69D0340012D6F6 /* ReviewsScreenFactory.swift */; };
+		FD40CB992E123067004080D4 /* FooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD40CB982E123067004080D4 /* FooterCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		21ED1F5F2D69C85E0012D6F6 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		21ED1F612D69CBCD0012D6F6 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		21ED1F642D69D0340012D6F6 /* ReviewsScreenFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsScreenFactory.swift; sourceTree = "<group>"; };
+		FD40CB982E123067004080D4 /* FooterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				21B82E252D47B0640085DAA2 /* ReviewCell.swift */,
+				FD40CB982E123067004080D4 /* FooterCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				21B82E392D47B1320085DAA2 /* Review.swift in Sources */,
 				21B8416D2D47C0E20085DAA2 /* ReviewsViewModelState.swift in Sources */,
 				21B82E2E2D47B0640085DAA2 /* ReviewCell.swift in Sources */,
+				FD40CB992E123067004080D4 /* FooterCell.swift in Sources */,
 				21ED1F622D69CBCD0012D6F6 /* RootView.swift in Sources */,
 				21667B802D4A25B2009AAA76 /* RatingRenderer.swift in Sources */,
 				216668712D48E4B2009AAA76 /* NSAttributedString+Ext.swift in Sources */,

@@ -34,6 +34,8 @@ private extension ReviewsView {
         tableView.separatorStyle = .none
         tableView.allowsSelection = false
         tableView.register(ReviewCell.self, forCellReuseIdentifier: ReviewCellConfig.reuseId)
+        tableView.register(FooterCell.self, forCellReuseIdentifier: FooterCell.reuseId)
+        tableView.rowHeight = UITableView.automaticDimension
     }
 
 }
