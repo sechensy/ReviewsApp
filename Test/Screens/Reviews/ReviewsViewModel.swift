@@ -90,12 +90,16 @@ private extension ReviewsViewModel {
         fullName.append(NSAttributedString(string: " "))
         fullName.append(userLastName)
 
+        let onTapShowMore: (UUID) -> Void = { [weak self] id in
+            self?.showMoreReview(with: id)
+        }
+
         let userImage = UIImage(named: "l5w5aIHioYc") ?? UIImage()
 
         let item = ReviewItem(
             reviewText: reviewText,
             created: created,
-            onTapShowMore: showMoreReview,
+            onTapShowMore: onTapShowMore,
             userFullName: fullName,
             rating: review.rating,
             userImage: userImage
